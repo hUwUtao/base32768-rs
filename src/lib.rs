@@ -5,7 +5,7 @@ use std::error::Error;
 use std::mem;
 
 mod data;
-mod errors;
+pub mod errors;
 mod bits_to_bits;
 
 static POINT_LEN: usize = 15;
